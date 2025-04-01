@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "com.example.tugas_akhir_pam"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.example.tugas_akhir_pam"
