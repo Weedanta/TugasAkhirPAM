@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bench_array">
+        <item>Szczesny</item>
+        <item>Cubarsi</item>
+        <item>Inigo</item>
+        <item>Kounde</item>
+        <item>Balde</item>
+        <item>Casado</item>
+        <item>Pedri</item>
+        <item>Gavi</item>
+        <item>Raphinha</item>
+        <item>Lewandowski</item>
+        <item>Yamal</item>
+    </string-array>
+
+    <string-array name="starter_array">
+        <item>Fermin Lopez</item>
+        <item>Marc Bernal</item>
+        <item>Araujo</item>
+        <item>Dani Olmo</item>
+        <item>Inaki Pena</item>
+    </string-array>
+</resources>
