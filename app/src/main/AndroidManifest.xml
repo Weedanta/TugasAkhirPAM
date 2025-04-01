@@ -13,7 +13,7 @@
         android:theme="@style/Theme.TugasAkhirPAM"
         tools:targetApi="31">
         <activity
-            android:name=".LoginActivity"
+            android:name="LoginAndSIgnup.LoginActivity"
             android:exported="false" />
     </application>
 
