@@ -36,7 +36,7 @@ public class LoginActivity extends AppCompatActivity {
 
             // Validasi sederhana
             if (inputUsername.equals("Hasbi") && inputPassword.equals("Hasbi")) {
-                Intent intent = new Intent(LoginActivity.this, List.class);
+                Intent intent = new Intent(LoginActivity.this, MainActivity.class);
                 intent.putExtra("USERNAME", inputUsername);
                 startActivity(intent);
             } else {

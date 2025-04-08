@@ -28,16 +28,16 @@ public class HomeActivity extends AppCompatActivity {
         TextView welcomeText = findViewById(R.id.Welcome);
         Button backButton = findViewById(R.id.button);
 
-        // Menerima data username dari LoginActivity
+
         Intent intent = getIntent();
         String username = intent.getStringExtra("USERNAME");
         welcomeText.setText("Selamat datang, " + username + "!");
 
-        // Menambahkan OnClickListener pada tombol kembali
+
         backButton.setOnClickListener(v -> {
             Intent loginIntent = new Intent(HomeActivity.this, LoginActivity.class);
             startActivity(loginIntent);
-            finish(); // Menutup HomeActivity agar tidak menumpuk di back stack
+            finish();
         });
     }
 }

@@ -10,13 +10,13 @@
 
 
     <Spinner
-        android:id="@+id/spinnerBuah"
+        android:id="@+id/Starter"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:entries="@array/starter_array" />
 
     <ListView
-        android:id="@+id/listViewHewan"
+        android:id="@+id/Backup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:entries="@array/bench_array"/>
