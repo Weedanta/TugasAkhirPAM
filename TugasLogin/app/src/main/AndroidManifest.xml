@@ -19,6 +19,12 @@
         android:theme="@style/Theme.TugasTeori"
         tools:targetApi="31">
         <activity
+            android:name=".DatabaseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CrudActivity"
+            android:exported="false" />
+        <activity
             android:name=".Async"
             android:exported="false" />
         <activity
